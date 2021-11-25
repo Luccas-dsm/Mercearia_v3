@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Mercearia_v3.AddCl" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAIAEACAhADGCAACEABCKAALAAAAAAAgBABCAAAA=</HashCode>
+      <FileName>AddCl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mercearia_v3.AddCompra" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAGCAAABEAAACMAIACAAAAA0AAAIEMAAAAAAA=</HashCode>
+      <FileName>AddCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mercearia_v3.Alterar" Collapsed="true">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABQAEAAECAAABECACiIAIACAAAAAUAAAAEEAIAIAAA=</HashCode>
+      <FileName>Alterar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mercearia_v3.AlterarCliente" Collapsed="true">
+    <Position X="8.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAHACAgADECAAiEAACCAILAAAAAAAAQQAAACAA=</HashCode>
+      <FileName>AlterarCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mercearia_v3.Arquivo" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAACAAQAAAAWBEEAABCAAAAAAAAQ=</HashCode>
+      <FileName>Arquivo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NotaFiscal" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.Base" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABQFAhBEBgAQAwIAAAAABAABAAQAAaAAAAOAE=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Form1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.Cliente" Collapsed="true">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQIAAAADACAAgAAkEIAABAAAAABAAAAAQABIABEAAAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Fclientes" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.Compra" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACgEBqBAEdAiIACgBAoGkIMMBUABEEA8YoMAAEg=</HashCode>
+      <FileName>Compra.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AddCompra" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.Dinheiro" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAAAAAAAEAAAAIEAAACAAA=</HashCode>
+      <FileName>Dinheiro.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Estoque" />
+      <Property Name="Compra" />
+      <Property Name="Vendas" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.Estoque" Collapsed="true">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EADgAIAEACAAAtEihCKoBIoalAAUQAKAkAUcAIECgEE=</HashCode>
+      <FileName>Estoque.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Alterar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.Fclientes" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAKAAGAEhCEjgDGuhACMIBCOkALWAEIAUAkJAEnAAGA=</HashCode>
+      <FileName>Fclientes.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AlterarCliente" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.Form1" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BFAh4UggICgSAAAAhCKBAgASAgAEQFYMpBQEAVBCAVE=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Telainicial" />
+      <Property Name="Estoque" />
+      <Property Name="Compra" />
+      <Property Name="Cliente" />
+      <Property Name="Info" />
+      <Property Name="Vendas" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.Info" Collapsed="true">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEACAAAAAAAACIAIBCgAAAAAACAAQgAAABAAA=</HashCode>
+      <FileName>Info.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mercearia_v3.NotaCompra" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAEAQAEAAAA=</HashCode>
+      <FileName>NotaCompra.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NotinhaCadastrados" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.NotaF" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIAAIACAAAhAAAAKQBAAGAABAQAAAlAACgAAAAMM=</HashCode>
+      <FileName>NotaF.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Notinha" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.NotaFiscal" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgIAAyACACAAAAAAAACAAAAEgAAABAAAAAEAAAAAQAE=</HashCode>
+      <FileName>NotaFiscal.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Base" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.Notinha" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAACACEAABCCAAKABAAGAAAAQAAAkEAAgAAgAAM=</HashCode>
+      <FileName>Notinha.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AddCl" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.NotinhaCadastrados" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAMCCAABCCAAKAAAAHAAAAQAAAkAAAgABAAAM=</HashCode>
+      <FileName>NotinhaCadastrados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mercearia_v3.Program" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAEAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Arquivo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.Quantidade" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAEAAECAAABEAAACMAIACAAAAA0AIAAEMAAAAAAA=</HashCode>
+      <FileName>Quantidade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mercearia_v3.Telainicial" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAIAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Telainicial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mercearia_v3.Vendas" Collapsed="true">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAACAEBqBAEdAiAACgBAoGlIIMBUCBEkA8QoEAAGg=</HashCode>
+      <FileName>Vendas.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Quantidade1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mercearia_v3.ItensdoCarrinho" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAwAAAABAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>ItensdoCarrinho.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Vendas" />
+      <Property Name="Compra" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
